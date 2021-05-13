@@ -29,7 +29,6 @@ function getBooksPossessedByAccount(account, books, authors) {
       (borrowsKey) =>
         borrowsKey.returned === false && borrowsKey.id === account.id
     );
-    let bookResult = books[book];
     if (currentlyOut) {
       let bookResult = books[book];
       for (let author in authors) {
@@ -42,10 +41,6 @@ function getBooksPossessedByAccount(account, books, authors) {
   }
   return checkedOut;
 }
-// if (authorMatch) {
-//   authorInfo.push(author);
-
-//console.log(checkedOut);
 
 module.exports = {
   findAccountById,
