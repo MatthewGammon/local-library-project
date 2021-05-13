@@ -32,15 +32,6 @@ function getBorrowersForBook(book, accounts) {
   }
   return result.slice(0, 10);
 }
-//   const bookKeys = Object.entries(book.borrows);
-//   console.log(bookKeys);
-//   for (let account in accounts) {
-//     const accountIds = accounts.find(
-//       (eachAccount) => eachAccount.id === book.id
-//     );
-//     console.log(accountIds);
-//   }
-// }
 
 module.exports = {
   findAuthorById,

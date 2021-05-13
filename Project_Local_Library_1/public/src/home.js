@@ -59,37 +59,6 @@ function getMostPopularAuthors(books, authors) {
     .slice(0, 5);
 }
 
-//   let result = [];
-//   for (let book in books) {
-//     const { authorId } = books[book];
-//     //console.log(authorId);
-//     for (let author in authors) {
-//       //console.log(authors[author].id);
-//       const somethingOrOther = findAuthorById()
-
-//         //console.log(authors[author].id === authorId);
-//       }
-//     }
-//   }
-// }
-
-//console.log(authorsMatch);
-// for (let author in authors) {
-//   if(authors[author].id === authorId){
-
-//   }
-//   );
-//   const authorCount = authorsMatch.length;
-//   console.log(authorsMatch);
-// const first = author.name.first;
-// const last = author.name.last;
-//const authorName = { name: `${first} ${last}`, count: `${authorCount}` };
-// return authorCount;
-
-//booksByAuthor = authorsMatch.length;
-// authorsMatch.sort((a, b) => a.count - b.count);
-// console.log(authorsMatch);
-
 module.exports = {
   getTotalBooksCount,
   getTotalAccountsCount,
