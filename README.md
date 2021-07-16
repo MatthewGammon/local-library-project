@@ -1,4 +1,6 @@
-# local-library-project
-## Thinkful Module 6: Local Library Project
+# Local Library Project
+## Project Information
+This project was built during during Module 6 of the Thinkful Software Engineering Immersion program. 
+The goals of the project were to test the student's ability to write algorithim's based on given criteria in order to provide information to be displayed within the Local Libary application. 
+Iterating through objects and arrays using for in, for of, reduce, and map were some of the key concepts used throughout the project. 
 
-This contains 3 .js files where I wrote out functions to be able to display data on the local library web page. 
